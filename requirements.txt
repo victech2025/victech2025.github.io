@@ -1,4 +1,7 @@
 mkdocs-material
-mkdocs-rss-plugin
+# mkdocs-rss-plugin
 pymdown-extensions
 mkdocs-macros-plugin
+mkdocs-git-authors-plugin
+mkdocs-git-revision-date-localized-plugin
+mkdocs-minify-plugin
