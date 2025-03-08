@@ -201,4 +201,6 @@ $$\frac{\frac{1}{6}}{\frac{1}{3}} = \frac{1 . 3}{6 . 1} = \frac{3}{6} =
 (The dot $.$ is shorthand for multiplication $\times$)
 
 You should use improper fractions in this course, rather than making a mixed
-numeral, e.g. $$\frac{3}{2} > 1 \frac{1}{2}$$
+numeral, e.g.
+
+$$\frac{3}{2} > 1 \frac{1}{2}$$

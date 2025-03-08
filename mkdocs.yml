@@ -45,7 +45,7 @@ theme:
                             # heading
     - navigation.tabs # Tabs up the top
     - navigation.tabs.sticky  # Sticky tabs
-    # - navigation.sections # Expands all top-level page sections
+    - navigation.sections # Expands all top-level page sections
     # - navigation.expand # If the above is not active, this will expand all
                         # sections
     - navigation.prune  # Not compatible with `expand`, reduces build size
