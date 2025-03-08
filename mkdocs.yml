@@ -2,6 +2,14 @@ site_name: Victoria 1st Year Tech Wiki
 nav:
   - Home:
     - index.md
+  - MATH132:
+    - math132/index.md
+    - Week 1:
+      - Number Sets: math132/2025-02-24-number-sets.md
+      - Rational Numbers: math132/2025-02-27-rational-numbers.md
+      - Exponentials and Fractions: math132/2025-02-28-exponentials-and-fractions.md
+      - Fractions and Negative Numbers: math132/2025-03-03-fractions-and-negative-numbers.md
+      - Inequalities and Different Number Systems: math132/2025-03-06-inequalities-and-different-number-systems.md
 
 theme:
   name: material
@@ -94,6 +102,8 @@ markdown_extensions:
       auto_append:
           - includes/abbreviations.md
           # - includes/footnotes.md
+  - pymdownx.arithmatex:
+      generic: true
 
 repo_name: victech2025/victech2025.github.io
 repo_url: https://github.com/victech2025/victech2025.github.io
@@ -101,3 +111,7 @@ edit_uri: edit/main/docs/
 
 watch:
     - includes
+
+extra_javascript:
+  - js/mathjax.js
+  - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
