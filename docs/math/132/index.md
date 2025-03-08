@@ -1,5 +1,16 @@
 # MATH132 - Introduction to Mathematical Thinking
 
+## Important links
+
+* [Course Homepage](https://www.wgtn.ac.nz/courses/math/132/2025/offering?crn=17150)
+* [Nuku page](https://nuku.wgtn.ac.nz/courses/24963)
+* [MATH132 Discord](https://discord.gg/AGAah36ayW)
+* [First Year Technology Students Discord](https://discord.gg/CzdC6d2WDc)
+
+## Tutor Information
+
+<Temporarily not here\>
+
 ## Notes
 
 ### Week 1
