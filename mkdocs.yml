@@ -1,0 +1,7 @@
+site_name: Victoria 1st Year Tech Wiki
+nav:
+  - Home:
+    - index.md
+
+theme:
+  name: material
