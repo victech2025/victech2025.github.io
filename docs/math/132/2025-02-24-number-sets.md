@@ -4,19 +4,25 @@
 Numbers, number systems, integers, decimal numbers, imaginary numbers(?), operations. BEDMAS.
 
 We will learn 4 number systems:
+
 $$
 \mathbb{N} \text{ - Natural numbers}
 $$
+
 $$
 \mathbb{Z} \text{ - Integers}
 $$
+
 $$
 \mathbb{Q} \text{ - Rational numbers}
 $$
+
 $$
 \mathbb{R} \text{ - Real numbers}
 $$
-![[Pasted image 20250227212748.png]]
+
+![image of number sets](../../images/number_sets.png)
+
 ### Natural numbers (N)
 0, 1, 2, 3, …
 
