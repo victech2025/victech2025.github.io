@@ -63,10 +63,29 @@ theme:
     - header.autohide
 
 plugins:
-  - search
+  - search:
+      separator: '[\s\-,:!=\[\]()"/]+|(?!\b)(?=[A-Z][a-z])|\.(?!\d)|&[lg]t;'
+  - git-revision-date-localized:
+      enable_creation_date: true
+  - git-authors:
+      show_contribution: true
+      show_line_count: true
+      show_email_address: false # No need for this
+      fallback_to_empty: false
+      sort_authors_by: contribution
+      authorship_threshold_percent: 0 # Default
+      exclude:
+        - index.md
+      enabled: true
+      strict: true
+  - minify:
+      minify_html: true
+      htmlmin_opts:
+        remove_comments: true
+  - macros
   # - macros
   # - blog
-  - tags:
+  # - tags:
   # - enabled: true
   # tags_file: tags.md
   # - rss:
@@ -105,6 +124,12 @@ markdown_extensions:
           # - includes/footnotes.md
   - pymdownx.arithmatex:
       generic: true
+
+extra:
+  social:
+    - icon: fontawesome/brands/discord
+      link: https://discord.gg/CzdC6d2WDc
+      name: First Year Technology Students Discord
 
 repo_name: victech2025/victech2025.github.io
 repo_url: https://github.com/victech2025/victech2025.github.io
