@@ -5,3 +5,99 @@ nav:
 
 theme:
   name: material
+  language: "en"
+  icon:
+    logo: fontawesome/solid/book-open
+  palette:
+    # 'default' for light mode, 'slate' for dark mode
+    # scheme: default
+
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - content.code.copy # Code blocks all have copy-to-clipboard buttons
+    - content.action.edit # Edit button
+    - content.action.view # View source button
+    - navigation.instant  # Clicks on all internal links will be intercepted
+                        # and dispatched without fully reloading the page
+    - navigation.instant.progress # Progress indicator
+    # - navigation.tracking # Changes the URL state at the top to the current
+                            # heading
+    - navigation.tabs # Tabs up the top
+    - navigation.tabs.sticky  # Sticky tabs
+    # - navigation.sections # Expands all top-level page sections
+    # - navigation.expand # If the above is not active, this will expand all
+                        # sections
+    - navigation.prune  # Not compatible with `expand`, reduces build size
+    - navigation.indexes  # Attaches documents directly to sections
+    - toc.follow  # Scrolls the sidebar to follow when jumping sections
+    # - toc.integrate # Moves the sidebar to the left into the sections
+    - navigation.top  # "Back to top" button
+    - search.suggest  # Suggest searches
+    - search.highlight  # Highlights all results in the search
+    - search.share  # Allows deep links to the search
+    - navigation.footer
+
+    # Reference
+    - content.tooltips
+    - header.autohide
+
+plugins:
+  - search
+  # - macros
+  - blog
+  - tags:
+  # - enabled: true
+  # tags_file: tags.md
+  - rss:
+      match_path: blog/posts/.*
+      date_from_meta:
+          as_creation: "date"
+      categories:
+          - categories
+          - tags
+      comments_path: "#__comments"
+
+markdown_extensions:
+  - abbr
+  - attr_list
+  - footnotes
+  - admonition
+  - def_list
+  - md_in_html
+  - tables
+  - pymdownx.superfences
+  - pymdownx.betterem     # Better detection of emphasis in Markdown
+  - pymdownx.caret
+  - pymdownx.mark
+  - pymdownx.tilde
+  - pymdownx.details
+  - pymdownx.smartsymbols
+  - pymdownx.tabbed:
+      alternate_style: true
+  # - pymdownx.keys
+  # - pymdownx.highlight:
+  #   anchor_linenums: true
+  #   auto_title: true
+  - pymdownx.snippets:
+      auto_append:
+          - includes/abbreviations.md
+          # - includes/footnotes.md
+
+repo_name: victech2025/victech2025.github.io
+repo_url: https://github.com/victech2025/victech2025.github.io
+edit_uri: edit/main/docs/
+
+watch:
+    - includes
