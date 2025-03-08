@@ -3,14 +3,14 @@ nav:
   - Home:
     - index.md
   - MATH132:
-    - math132/index.md
+    - math/132/index.md
     - Week 1:
-      - Number Sets: math132/2025-02-24-number-sets.md
-      - Rational Numbers: math132/2025-02-27-rational-numbers.md
-      - Exponentials and Fractions: math132/2025-02-28-exponentials-and-fractions.md
+      - Number Sets: math/132/2025-02-24-number-sets.md
+      - Rational Numbers: math/132/2025-02-27-rational-numbers.md
+      - Exponentials and Fractions: math/132/2025-02-28-exponentials-and-fractions.md
     - Week 2:
-      - Fractions and Negative Numbers: math132/2025-03-03-fractions-and-negative-numbers.md
-      - Inequalities and Different Number Systems: math132/2025-03-06-inequalities-and-different-number-systems.md
+      - Fractions and Negative Numbers: math/132/2025-03-03-fractions-and-negative-numbers.md
+      - Inequalities and Different Number Systems: math/132/2025-03-06-inequalities-and-different-number-systems.md
 
 theme:
   name: material
@@ -65,18 +65,18 @@ theme:
 plugins:
   - search
   # - macros
-  - blog
+  # - blog
   - tags:
   # - enabled: true
   # tags_file: tags.md
-  - rss:
-      match_path: blog/posts/.*
-      date_from_meta:
-          as_creation: "date"
-      categories:
-          - categories
-          - tags
-      comments_path: "#__comments"
+  # - rss:
+  #     match_path: blog/posts/.*
+  #     date_from_meta:
+  #         as_creation: "date"
+  #     categories:
+  #         - categories
+  #         - tags
+  #     comments_path: "#__comments"
 
 markdown_extensions:
   - abbr
