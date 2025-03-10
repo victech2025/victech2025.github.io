@@ -7,6 +7,10 @@
 * [MATH132 Discord](https://discord.gg/AGAah36ayW)
 * [First Year Technology Students Discord](https://discord.gg/CzdC6d2WDc)
 
+Download the notes in PDF format [here][notes-dl].
+
+[notes-dl]: (./MATH132%20-%202025-03-10.zip)
+
 <!-- ## Tutor Information
 
 <Temporarily not here\> -->
