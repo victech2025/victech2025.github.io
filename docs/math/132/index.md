@@ -9,7 +9,7 @@
 
 Download the notes in PDF format [here][notes-dl].
 
-[notes-dl]: (./MATH132%20-%202025-03-10.zip)
+[notes-dl]: ./MATH132%20-%202025-03-10.zip
 
 <!-- ## Tutor Information
 
