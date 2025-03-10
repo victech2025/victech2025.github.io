@@ -7,11 +7,13 @@
 * [MATH132 Discord](https://discord.gg/AGAah36ayW)
 * [First Year Technology Students Discord](https://discord.gg/CzdC6d2WDc)
 
-## Tutor Information
+<!-- ## Tutor Information
 
-<Temporarily not here\>
+<Temporarily not here\> -->
 
-## Notes
+<!-- ## Notes
+
+-- Notes will instead be shown on left side
 
 ### Week 1
 
@@ -22,5 +24,5 @@
 ### Week 2
 
 * [Fractions (cont.) and negative numbers](./2025-03-03-fractions-and-negative-numbers.md)
-* [Inequalities (Comparisons) and Different number systems](./2025-03-06-inequalities-and-different-number-systems.md)
+* [Inequalities (Comparisons) and Different number systems](./2025-03-06-inequalities-and-different-number-systems.md) -->
 <!-- * [] -->
